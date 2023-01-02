@@ -21,55 +21,8 @@ GitHub also provides a number of features to help developers collaborate, includ
 Eugene Gaffney
 Write a git readme file for my project.
 
-To create a README file for your project, follow these steps:
-
-Navigate to the root directory of your project.
-
-Create a new file called "README.md" (the .md extension stands for "markdown," which is a simple formatting syntax).
-
-Open the file in a text editor and write a short description of your project at the top. This should include a brief overview of what the project does and why it is useful.
-
-Next, include instructions for how to install and set up the project. This might include details on any dependencies that need to be installed, or any special configuration steps that need to be taken.
-
-If your project includes any usage examples, include those in the README as well. This will help other users understand how to use the project.
-
-You may also want to include information on how to contribute to the project, including details on how to submit bug reports or feature requests.
-
-When you are finished writing the README, save the file and commit it to your Git repository.
-
-Here is an example template for a basic README file:
-
-Copy code
-# Project Title
-
-A brief description of the project and its purpose.
-
-## Getting Started
-
-Instructions on how to install and set up the project.
-
-## Usage
-
-Examples of how to use the project.
-
-## Contributing
-
-Instructions on how to contribute to the project (e.g. submitting bug reports, requesting new features).
-
-## License
-
-Information on the project's license.
-I hope this helps! Let me know if you have any other questions.
-
-
-
-
-Eugene Gaffney
-The project is an oil tank level sensor that uses an esp8266 flashed with micro python.  An ultrasonic sensor hc‑sr04 is connected to the esp8266. The esp8266 connects to WiFi and publishes the oil tank level to thingspeak.com. 
-
-Here is a README file for your project:
-
 Oil Tank Level Sensor
+
 This project uses an ESP8266 microcontroller flashed with MicroPython to monitor the level of oil in a tank. The level is measured using an HC-SR04 ultrasonic sensor, and the data is published to the Internet of Things (IoT) platform Thingspeak.com.
 
 Getting Started
